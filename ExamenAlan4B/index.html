@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Examen">
+    <title>Formulario Validado</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body class="body">
+    <header class="header">
+        <h1>Formulario Validado</h1>
+       <nav class="navbar">
+        <a href="#inicio">Inicio</a>
+        <a href="#contacto">Contacto</a>
+</nav>
+    </header>
+
+    <main class="main">
+        <form class="formulario">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" class="nombre" placeholder="Ingresa tu nombre" required>
+
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" class="correo" placeholder="Ingresa tu correo" required>
+
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" class="edad" placeholder="Ingresa tu edad" min="18" max="99" required>
+
+            <label for="pais">País:</label>
+            <input type="text" id="pais" class="pais" placeholder="Escribe el nombre de tu país" required>
+        </form>
+         <button type="button" class="enviar">Enviar</button>
+    </main>
+    <div class="mensaje" id="mensaje"></div>
+    <footer class="footer">
+        <p>Todos los derechos reservados</p></footer>
+    <script src="JS/app.js"></script>
+</body>
+</html>

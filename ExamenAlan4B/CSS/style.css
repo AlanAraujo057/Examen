@@ -1,0 +1,30 @@
+.header{
+    background-color: aqua;
+    border-radius: 10px;
+    align-items: center;
+}
+.main{
+    font-family: sans-serif;
+    background-color: blueviolet;
+    border-radius: 8px;
+}
+.body{
+    background-color: cadetblue;
+}
+.enviar{
+    background-color: greenyellow;
+    border-radius: 8px;
+    font-size: medium;
+    width: 150px;
+}
+.footer{
+    background-color: whitesmoke;
+    
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+.mensaje{
+    color: green;
+}
